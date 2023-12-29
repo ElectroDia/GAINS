@@ -4,12 +4,14 @@
 {% endblock title %}
 
 {% block content %}
-<h1>GAIN</h1>
-
+<div class="title">GAINS</div>
 {% include "snippets/data.html" %}
 <br>
-<container 
-<button class="fat" onclick="inputData('btn-fat')"> Körperfett </button>
-<button class="weight" onclick="inputData('btn-weight')"> Gewicht </button>
-<button class="muscle" onclick="inputData('btn-muscle')"> Muskelmasse </button>
+
+<div class="MainButtons">
+    <button class="fat" onclick="inputData('btn-fat')"> Körperfett </button>
+    <button class="weight" onclick="inputData('btn-weight')"> Gewicht </button>
+    <button class="muscle" onclick="inputData('btn-muscle')"> Muskelmasse </button>
+</div>
+
 {% endblock content %}
