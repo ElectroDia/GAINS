@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+button {
+    border-width: 3px;
+    border-radius: 10px;
+    height: 20%;
+    width: 30%;
+    border: solid;
+    padding: 10px;
+    
+}
+
+.fat {
+    border-color: rgba(20, 0, 150, .9);
+    background-color: rgba(20, 0, 150, .5);
+}
+
+.weight {
+    border-color: rgba(120, 120, 120, .9);
+    background-color: rgba(120, 120, 120, .5);
+}
+
+.muscle {
+    border-color: rgba(115, 0, 0, .9);
+    background-color: rgba(115, 0, 0, .5);
+}

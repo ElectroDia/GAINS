@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+{% block content %}
+<h1>GAIN</h1>
+
+{% include "snippets/data.html" %}
+<br>
+<container 
+<button class="fat" onclick="inputData('btn-fat')"> Körperfett </button>
+<button class="weight" onclick="inputData('btn-weight')"> Gewicht </button>
+<button class="muscle" onclick="inputData('btn-muscle')"> Muskelmasse </button>
+{% endblock content %}
