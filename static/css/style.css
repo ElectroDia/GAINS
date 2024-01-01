@@ -18,6 +18,10 @@ button {
     padding: 10px;
 }
 
+.scrollwindow {
+    
+}
+
 .MainButtons {
     position: absolute;
     display: flex;
